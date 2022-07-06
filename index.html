@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-animation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <div> -->
+        <div class="heading">
+
+            <a class="logo"><i class="fa-solid fa-spider"></i></a>
+            <div class="sub-heading">
+                <h1 class="hero">Welcome Back!</h1>
+
+                <p>To keep connected with us please login with your personal info</p>
+            </div>
+
+        </div>
+
+        <form action="">
+
+            <input type="text" name="email" id="email" placeholder="Email" style="font-size:16px">
+
+            <input type="password" name="password" id="password" placeholder="Password">
+
+            <p class="shot-hub">
+                <a><i class="fa-solid fa-box"></i> Rememeber Me</a>
+                <a class="recovery-password">Recovery Password</a>
+            </p>
+
+        </form>
+
+        <div class="btn-container">
+            <button class="login-btn">Login</button>
+
+            <button class="signIn"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+        </div>
+        <p class="footer">Don't have an account yet? <span class="slash">Sign Up</span></p>
+
+    </div>
+
+    <!-- the login in section -->
+    <div class="second-container hidden">
+
+        <div class="loader">
+            <a id="spider" class="logo"><i class="fa-solid fa-spider"></i></a>
+            
+            <a id="check" class="check-mark hidden"><i class="fa-solid fa-check"></i></a>
+        </div>
+       
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
